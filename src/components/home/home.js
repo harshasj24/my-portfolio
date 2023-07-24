@@ -8,7 +8,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const Home = () => {
   return (
     <section id="homeWrapper">
-      <div id="profileSection">
+      <section id="aboutMe">
         <div className="profile__description">
           <h1>Hi, I'am Harsha</h1>
           <p>Fontend Developer</p>
@@ -35,7 +35,7 @@ const Home = () => {
             <img src={myProfile} alt="" srcset="" />
           </div>
         </div>
-      </div>
+      </section>
     </section>
   );
 };
